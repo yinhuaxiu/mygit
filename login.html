@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/newstyle.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+		<script src="js/login_check.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		 <div class="content">
+			<div class="left_content">
+				<div class="label">
+				  <img src="images/label.png" width="100px" height="100px"/> 
+				 <p><b>路线优化</b></p>
+				</div>
+				<p>欢迎进入配送路线优化系统</p>
+				<form name="myForm">
+				<input id="account" type="text" placeholder="用户名" name="account_number" required> <br />
+				<div id="account_error"></div>
+				<input id="password" type="password" placeholder="密码" name="pwd" required> <br />
+				<div id="password_error" type="text"></div>
+				<input id="remember_me" type="checkbox" name="remember_pwd"/> 记住我&nbsp;&nbsp;&nbsp;&nbsp;
+				<a href="changPWD.html">忘记密码</a>
+			
+				<div class="login">
+					<input id="loginbutton" type="submit" name="loginbutton" value="提交" onclick="loginCheck()"/>
+				</div>
+				</form>
+			</div>
+			<div class="right_content">
+				<div class="right_label">
+					<img src="images/right_label.png" width="150px" height="150px"/>
+				</div>
+				<div class="right_text">
+					<p>此系统是一个基于算法进行优化的配送路线的系统</p>
+				</div>
+			</div>
+		 </div>
+		 <div class="buttom">
+			 <div class="buttom_label">
+				 <br />
+				 <p>没有账号？&nbsp;&nbsp;&nbsp;&nbsp;<a href="add.html">立即注册</a></p>
+				 
+			 </div>
+		 </div>
+		</div>
+	</body>
+</html>

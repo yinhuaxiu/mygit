@@ -1,0 +1,154 @@
+
+body{
+	background: url(../images/background.png) no-repeat;
+	background-size: cover;
+}
+.container{
+	width: 800px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 20px;
+	box-shadow: 4px 4px 4px 4px beige;
+	background-color: white;
+	
+}
+.content{
+	width: 800px;
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+.left_content{
+	width: 300px;
+	height: auto;
+	padding-top: 20px;
+	margin: 0 auto;
+	float: left;
+	margin-left: 50px;
+	background: url(../images/bg-portfolio-separator.gif) right 50% repeat-y;
+}
+.left_content p{
+	font-size: 16px;
+}
+.label{
+	width:100% ;
+}
+.label p{
+	float: right;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-right: 120px;
+}
+.left_content h1{
+	background: url(../images/leftbg.jpg) no-repeat;
+	margin-top: 40px;
+}
+.right_content{
+	background: url(../images/right_background.png) no-repeat;
+	background-size: 450px 400px;
+	width: 450px;
+	height: 400px;
+	float: left;
+	
+}
+.right_label{
+	margin-top: 130px;
+	width: 150px;
+	height: auto;
+	float: left;
+}
+.right_text{
+	margin-top: 150px;
+	margin-left: -10px;
+	width: 150px;
+	float: left;
+}
+
+#account{
+	background-image: url(../images/user1.png);
+	background-size: 25px 25px;
+	background-position: -2px 0px;
+	padding: 8px 10px 1px 25px;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+#account_error{
+	width: 215px;
+	height: 25px;
+	color: red;
+}
+
+#password{
+	background-image: url(../images/password1.png);
+	background-size: 25px 25px;
+	background-position: -2px 0px;
+	padding: 8px 10px 1px 25px;
+	background-repeat: no-repeat;
+	margin-top: 30px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+#password_error{
+	width: 215px;
+	height: 25px;
+	color: red;
+}
+#remember_me{
+	margin-top: 30px;
+}
+.login{
+	float: right;
+	margin-top: 28px;
+	margin-right: 80px;
+	
+}
+#loginbutton{
+	background-color: cornflowerblue;
+	border: cornflowerblue;
+	border-radius: 4px;
+}
+.buttom{
+	width: 800px;
+	height: 80px;
+	background-color: lightblue;
+	clear:both;
+	margin: 0 auto;
+}
+.buttom_label{
+	width: 100%;
+	height: 20px;
+	margin-left: 50px;
+}
+
+//修改密码界面样式
+#oldPwd{
+	width: 180px;
+	height: 25px;
+}
+#newPwd{
+	width: 180px;
+	height: 25px;
+}
+#conPwd{
+	width: 180px;
+	height: 25px;
+}
+#error_box1{
+	width: 180px;
+	height: 25px;
+	background-color: aqua;
+}
+#error_box2{
+	width: 180px;
+	height: 25px;
+	background-color: aqua;
+}
+#error_box3{
+	width: 180px;
+	height: 25px;
+	background-color: aqua;
+}

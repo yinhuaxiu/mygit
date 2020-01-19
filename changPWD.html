@@ -1,0 +1,47 @@
+]<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link href="css/changePWD.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="jquery/jquery-1.11.0.min.js"></script>
+		<script src="js/modify_pwd.js"></script>
+	</head>
+	<body>
+		<div class="container">
+		 <div class="content">
+			<div class="left_content">
+				<div class="label">
+				  <img src="images/label.png" width="100px" height="100px"/> 
+				 <p><b>修改密码</b></p>
+				</div>
+				<form name="changePwdForm"></form>
+				<span>原密码&nbsp;&nbsp;&nbsp;</span>
+				<input type="text" id="oldPwd" name="oldPwd" />
+				<div id="error_box1"></div>
+				<span>新密码&nbsp;&nbsp;&nbsp;</span>
+				<input type="text" id="newPwd" name="newPwd" />
+				<div id="error_box2"></div>
+				<span>确认密码</span>
+				<input type="text" id="conPwd" name="conPwd" />
+				<div id="error_box3"></div>
+				<input id="submit" type="submit" value="提交" onclick="modifyCheck()"/>
+				<p style="color: #FF0000;">为了您得账户安全在请谨慎修改，尽量避免使用生日等易破解密码</p>
+				</form>
+			</div>
+			<div class="right_content">
+			</div>
+		 </div>
+		 <div class="buttom">
+		 </div>
+		</div>
+		</body>
+	</html>
+		
+
+ 
+ 
+
+
+
+
